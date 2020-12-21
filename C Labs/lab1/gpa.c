@@ -15,9 +15,7 @@ int main (int argc, char const *argv[])
    int i;
    int totalCredits;
 
-   printf("Student Name: Yesid Jimenez\n");
-   printf("Panther ID: 5867108\n");
-   printf("%s%15s%15s%25s", "Course", "Credits", "Grade", "Grade Points Earned\n"); // Display header for the output
+      printf("%s%15s%15s%25s", "Course", "Credits", "Grade", "Grade Points Earned\n"); // Display header for the output
    for (i = 0; i < 6; ++i) // For loop to iterate courses and display courses information
    {
       printf("%s %10d %17.2f %23.2f\n", courses[i], credits[i], grades[i], credits[i]*grades[i]);
